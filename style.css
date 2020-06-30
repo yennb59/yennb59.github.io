@@ -238,10 +238,17 @@ h2{
 	padding-top: 10px;
 	padding-left: 200px
 }
-.row img{
+.pic img{
 	float: left;
 	padding-right: 20px;
 	padding-top: 20px;
+}
+.row img:hover{
+	transform: scale(1.02);
+}
+.row img{
+	transition-duration: 1s;
+	width: 470px;
 }
 #blog{
 	width: 1800px;
@@ -260,6 +267,13 @@ h2{
 	padding-right: 200px;
 	float: left;
 	padding-top: 20px;
+}
+.post img:hover{
+	width: 500px;
+}
+.post img{
+	transition-duration: 1.2s;
+	width: 400px;
 }
 .blog1{
 	width: 400px;
